@@ -1,0 +1,215 @@
+body
+{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-family: 'Do Hyeon', sans-serif;
+   
+}
+li
+{
+    display: inline-block;
+}
+a
+{
+   text-decoration: none;
+   color: #fdfdfd;
+   font-size: 2rem;
+
+}
+.navbar
+{
+    height:auto;
+    background-color: rgb(100,100,100,0.6);
+    backface-visibility: visible;
+    position: sticky;
+    top: 0;
+    border: 1px;
+    z-index: 2;
+    
+    
+   
+}
+.nav-links
+{
+    display: inline-block;
+  
+}
+a:hover
+{
+    color: black;
+    font-weight: bolder;
+   
+}
+.home 
+{
+    height:100%;
+    background-color:  rgb(100,100,100,0.6);
+    
+}
+.about
+{
+    background-color:  rgb(100,100,100,0.6);
+}
+.img-dp
+{
+    position: relative;
+    margin-left:50%;
+
+    right: 100px;
+    border-radius: 100%;
+  
+    
+}
+.fltu
+{
+    height: 10%;
+    background-color: rgb(100,100,100,0.6);
+   
+}
+.home-text
+{
+    margin-top: 20px;
+    color:#fdfdfd;
+    font-size:3rem;
+    text-align: center;
+    text-transform: uppercase;
+    
+
+}
+
+
+
+
+
+
+@media only screen and (max-width:600px)
+{
+
+
+ .nav-links
+{
+    display: none;
+
+}
+ 
+
+
+.bars
+{
+    position: relative;
+    color: #fdfdfd;
+    margin-left:80%;
+    margin-top: 10px;
+  
+}
+
+.home-text
+{
+    font-size: 2rem;
+}
+
+}
+@media only screen and (min-width:600px)
+{
+   
+ 
+ .about-skill,.about-skill1,.about-skill2,.about-skill3,.about-skill4
+{
+    width: 25%;
+    font-size: 2rem;
+    height: 400px;
+}
+.bars
+{
+    display: none;
+}
+}
+
+.nav-link
+{
+    margin: 10px 10px;
+}
+.about
+{
+    display: flex;
+   flex-wrap: wrap;
+  
+
+}
+
+.about-skill,.about-skill1,.about-skill2,.about-skill3,.about-skill4
+{
+  
+    color:black;
+    text-align: center;
+    font-size: 2rem;
+
+}
+.about-skill1
+{
+    
+  
+
+}
+.about-skill2
+{
+    background-color: rgb(0,200,0);
+
+}
+.about-skill3
+{
+    background-color: blue;
+
+}
+.about-skill4
+{
+    background-color: palevioletred;
+}
+
+
+
+
+.fa-2x
+{   color: black;
+    margin: 20px;
+}
+
+.skill-text
+{
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+.home-button
+{
+    margin-top: 10%;
+    text-align: center;
+}
+.home-button-1
+{
+    color:white;
+    background-color: transparent;
+    font-family: 'Do Hyeon', sans-serif;
+    border: 3px solid white;
+    
+    font-size: xx-large;
+}
+
+
+.home-button-1:hover
+{
+    color: black;
+    
+    
+}
+@media screen and (max-width:1023px)
+{
+    .about-skill,.about-skill1,.about-skill2,.about-skill3,.about-skill4
+    {
+        width: 50%;
+        font-size: 1.5rem;
+    }
+   
+}
+
