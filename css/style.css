@@ -91,12 +91,7 @@ a:hover
 {
 
 
- .nav-links
-{
-    display: none;
 
-}
- 
 
 
 .bars
@@ -333,3 +328,17 @@ a:hover
 {
     margin: 10px 10px;
 }
+
+@media screen and (max-width: 600px) {
+  
+.nav-link
+{
+    display:none;
+
+}
+.nav-link-responsive
+{
+    display: block;
+}
+
+  }

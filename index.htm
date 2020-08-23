@@ -55,6 +55,8 @@
     </style>
 
 
+
+
 </head>
 
 <body>
@@ -63,17 +65,49 @@
         <div class="nav-icon">
             <a href="#"><img src="" alt=""></a>
         </div>
+         
+        <div class="bar-icon"><a href="javascript:void(0);"" onclick="myFunction()"><i class="fas fa-bars bars fa-2x"></i></a></div>
         <nav class="nav-links">
+            
             <ul>
-                <li class="nav-link"><a href="#">Home</a></li>
-                <li class="nav-link"> <a href="#about">About</a></li>
-                <li class="nav-link"><a href="#">Portfolio</a></li>
-                <li class="nav-link"><a href="#">Blogs</a></li>
-                <li class="nav-link"><a href="#">Contact</a></li>
+                <li class="nav-link" id="li01"><a href="#">Home</a></li>
+                <li class="nav-link" id="li02"> <a href="#about">About</a></li>
+                <li class="nav-link" id="li03"><a href="#project">Portfolio</a></li>
+                <li class="nav-link" id="li04"><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-        <i class="fas fa-bars bars fa-4x"></i>
+        
+        
     </div>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("li01");
+          if (x.className === "nav-link") {
+            x.className += "-responsive";
+          } else {
+            x.className = "nav-link";
+          }
+          var x = document.getElementById("li02");
+          if (x.className === "nav-link") {
+            x.className += "-responsive";
+          } else {
+            x.className = "nav-link";
+          }
+          var x = document.getElementById("li03");
+          if (x.className === "nav-link") {
+            x.className += "-responsive";
+          } else {
+            x.className = "nav-link";
+          }
+          var x = document.getElementById("li04");
+          if (x.className === "nav-link") {
+            x.className += "-responsive";
+          } else {
+            x.className = "nav-link";
+          }
+        }
+        </script>
     <div class="fltu">
 
     </div>
