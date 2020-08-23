@@ -30,6 +30,7 @@ a
     
    
 }
+
 .nav-links
 {
     display: inline-block;
@@ -43,7 +44,7 @@ a:hover
 }
 .home 
 {
-    height:100%;
+    height:90%;
     background-color:  rgb(100,100,100,0.6);
     
 }
@@ -78,7 +79,10 @@ a:hover
 
 }
 
-
+.progress
+{
+    padding-bottom: 50px;
+}
 
 
 
@@ -118,7 +122,7 @@ a:hover
 {
     width: 25%;
     font-size: 2rem;
-    height: 400px;
+    height: 500px;
 }
 .bars
 {
@@ -146,29 +150,6 @@ a:hover
     font-size: 2rem;
 
 }
-.about-skill1
-{
-    
-  
-
-}
-.about-skill2
-{
-    background-color: rgb(0,200,0);
-
-}
-.about-skill3
-{
-    background-color: blue;
-
-}
-.about-skill4
-{
-    background-color: palevioletred;
-}
-
-
-
 
 .fa-2x
 {   color: black;
@@ -203,13 +184,152 @@ a:hover
     
     
 }
+.fa-angle-double-right:hover
+{
+    transform: rotate(90deg);
+}
+
+
+.progress
+{
+    background-color: #fdfdfd;
+}
+.progress-element
+{
+    font-size: 2rem;
+    display: flex;
+}
+
+@media screen and (max-width:600px)
+{
+    .progress-element
+    {
+        font-size:1.5rem;
+    }
+}
+@media screen and (max-width:330px)
+{
+    .progress-element
+    {
+        font-size:1rem;
+    }
+}
+.progress-feature
+{
+    width: 50%;
+    text-align: right;
+}
+.progress-star
+{
+    text-align: left;
+    width: 50%;
+}
+.skills-head
+{
+    text-align: center;
+}
+.shead
+{
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+}
+
+.project-head
+{
+    text-align: center;
+}
+.prohead
+{
+    margin: 0;
+    padding:10px;
+    font-size: 2.5rem;
+    background-color: rgba(150,50,70,0.3);
+}
+.projects-list
+{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.project-item
+{
+    display: flex;
+    flex-wrap: wrap;
+    
+    width: 50%;
+    margin: 0;
+    border: 0;
+   
+   
+}
+.p01
+{
+    background-color: rgba(150,50,70,0.3);
+    
+}
+.p02
+{
+    background-color: rgba(100,50,50,0.5);
+    
+}
+.p03
+{
+    
+    background-color: rgba(100,20,40,0.5);
+}
+.p04
+{
+    
+    background-color:rgba(20,100,30,0.4);
+}
+.project-content
+{
+  
+   
+    width: 60%;
+    font-size: 2rem;
+}
 @media screen and (max-width:1023px)
 {
     .about-skill,.about-skill1,.about-skill2,.about-skill3,.about-skill4
     {
         width: 50%;
         font-size: 1.5rem;
+        height: 350px;
     }
+
+    .project-item
+    {
+        width: 100%;
+    }
+    
    
 }
-
+@media screen and (max-width:600px)
+{
+   .project-content
+   {
+      font-size: 1.5rem;
+   }
+   
+}
+.contact-head
+{
+    text-align: center;
+    background-color:rgba(20,100,30,0.4)
+}
+.chead
+{
+    margin: 0;
+    font-size: 3rem;
+}
+.contact-item
+{
+    text-align:center;
+    font-size: 1.5rem;
+    background-color: rgba(100,100,100,0.5);
+}
+.fab
+{
+    margin: 10px 10px;
+}
