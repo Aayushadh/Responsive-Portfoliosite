@@ -86,11 +86,12 @@ a:hover
 
 
 
-
 @media only screen and (max-width:600px)
 {
 
-
+.project-item img{
+    width:100%;
+}
 
 
 
