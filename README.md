@@ -1,2 +1,2 @@
 # Responsive-Portfoliosite
-I had created responsive portfolio site using html,css and js.
+I have created responsive portfolio site using html,css and js.
